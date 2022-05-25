@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link href="../css/styless.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">survey form</h1>
+    <p id="description">Do you like our products?</p>
+    
+    
+    <form id="survey-form" >
+
+
+        <label id="name-label" for="name" class="group">name</label>
+        <input id="name" type="text" placeholder="enter your name" name="name" class="inputs" required>
+<br>
+
+        <label id="email-label" for="email" class="group">email</label>
+        <input id="email" type="email" placeholder="enter your e-mail" name="email" class="inputs" required>
+
+<br>
+        <label id="number-label" for="number" class="group">number</label>
+        <input id="number" type="number" placeholder="enter your number" class="inputs" name="number" min="0000000000" max="9999999999">
+<br>
+       <label id="select" for="age" class="group">did you face any problem while shopping?</label>
+        <select id="dropdown" name="age" class="inputs" required>
+            <option disabled selected value>select an option</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+<br>
+
+<label id="textarea1" for="textarea" class="group">if yes, plaese write down the problem:</label>
+<textarea name="textarea" class="inputs"></textarea>
+
+<br>
+<p class="group">
+    what do you usually buy?
+</p>
+        <label class="inputs">
+        <input type="radio" name="radios" value="livingroom" class="radioss">livingroom furniture
+        </label>
+       
+        <label class="inputs">
+        <input type="radio" name="radios" value="bedroom" class="radioss">bedroom furniture
+        </label>
+       
+        <label class="inputs">
+        <input type="radio" name="radios" value="kitchen" class="radioss">kitchen 
+    </label>
+<br>
+       <p class="group">what support option do you want us to use? </p>
+        <label class="inputs">
+        <input type="checkbox" value="email">email
+        </label> 
+        <label class="inputs">
+        <input type="checkbox" value="chat">WhatsApp
+        </label>
+        <label class="inputs">
+        <input type="checkbox" value="call">phone call
+        </label>
+<br>
+ <label class="group" for="improve">what would you like to see improved?</label>
+ <textarea class="inputs" name="improve"></textarea>
+<br>
+<button id="submit" type="submit" class="submitt">done!</button>
+
+    </form>
+
+</body>
+</html>

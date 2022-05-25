@@ -1,0 +1,71 @@
+body {
+background-image: url("https://dekornik.com/wp-content/uploads/2021/04/dekornik_ikea_floral_vintage.jpg") ;
+background-repeat: no-repeat;
+background-size: cover ;
+background-position: center ;
+background-attachment: fixed;
+background-color: #E3CAA5;}
+
+h1 {text-align: center;
+color: rgb(255, 255, 255);
+margin-bottom: 10px;
+margin: auto;
+font-size: 30px;
+text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+#description {
+    text-align: center;
+font-size: 50px;
+font-weight: bold;
+color: rgb(255, 255, 255);
+text-shadow: 3px 3px 5px rgb(0, 0, 0);
+margin-top: 10px;}    
+
+#survey-form { color: #000000;
+
+    font-family:Bradley Hand, cursive;
+    width: 500px;
+    margin: 50px auto ;
+    background-color: hsla(36, 53%, 77%, 0.788);
+    padding: 40px;
+    
+                }
+
+.group {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    padding:3px 0px 5px 0px;
+    display: block;
+    align-items: center;
+    width: 492px;
+    }
+
+
+.inputs {
+width: 492px;
+margin:auto;
+display: block;
+height: 20px;
+padding: 5px 0 5px 10px;
+}    
+
+#dropdown {height: 30px;
+    width: 505px;
+}
+
+.radioss {font-size: 10px;}
+
+#submit {font-size: 15px;
+    padding-left: 5px;
+width: 70px;
+height:40px;
+background-color: rgb(255, 255, 255);
+border-radius: 0.4rem;
+margin-top: 10px;
+border: 1px solid black ;
+display: block;
+margin:10px auto;
+}
+
